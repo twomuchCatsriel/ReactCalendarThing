@@ -4,11 +4,13 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 import Navbar from './navbar'
+import Entries from './entries'
 
 function App() {
   return(
     <div>
       <Navbar></Navbar>
+      <Entries name="June 7th, 2025" description="Celebrate birthday with Family"></Entries>
     </div>
   )
 }
